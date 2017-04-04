@@ -1,10 +1,16 @@
 #google_logo{
   height: 300px;
-  top: 110px;
+  top: 150px;
+  text-align: center;
+  margin: 0 auto;
+  width: 30%;
   position: relative;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+ 
+}
+div img{
+  width: 100%;
+  margin: 0, auto;
+  text-align: center;
 }
 #search_box{
   box-shadow: 0px 1px 2px 1px grey;
@@ -40,6 +46,7 @@
   width: 14%;
   color: rgba(68, 68, 68, 0.83);
   font-weight: bold;
+  border-radius: 2px;
 }
 #google_search{
   display: inline-block;
@@ -51,4 +58,49 @@
   right: 35%;
   display: inline-block;
   margin: 0 auto;
+}
+#top_navbar{
+  top: 0
+}
+.navbar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  width: 100%;
+
+}
+li, li > *{
+  float: right;
+  padding: 5px;
+  height: 30px;
+  width: 30px;
+  display: inline;
+  margin: 10px;
+  text-decoration: none;
+  color: black;
+  margin: 15px 15px 0px 15px
+}
+
+li a > img{
+  height: 30px;
+  width: 30px;
+}
+
+li button{
+  width: 60px;
+  top: 20px;
+  padding: 8px;
+}
+
+/*li a, li a *{
+  padding: 30px;
+  background-color: none;
+  height: 30px;
+  padding: 30px;
+  float: right;
+  position: absolute;
+}*/
+.text_link:hover{
+  text-decoration: underline;
 }
