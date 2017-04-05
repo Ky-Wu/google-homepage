@@ -68,18 +68,27 @@ div img{
   padding: 0;
   position: fixed;
   width: 100%;
+  height: 60px;
 
 }
-li, li > *{
+li{
   float: right;
   padding: 5px;
   height: 30px;
-  width: 30px;
-  display: inline;
+  width: 50px;
+  display: inline-block;
   margin: 10px;
   text-decoration: none;
   color: black;
-  margin: 15px 15px 0px 15px
+  margin: 15px 15px 0px 15px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+li a{
+  text-decoration: none;
+  color: black;
+  
 }
 
 li a > img{
